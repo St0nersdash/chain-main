@@ -1,6 +1,7 @@
 module github.com/crypto-org-chain/chain-main/v4
 
-go 1.19
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
@@ -141,7 +142,7 @@ require (
 	github.com/tendermint/go-amino v0.16.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
-	github.com/ulikunitz/xz v0.5.10 // indirect
+	github.com/ulikunitz/xz v0.5.14 // indirect
 	github.com/zondax/hid v0.9.1-0.20220302062450-5552068d2266 // indirect
 	github.com/zondax/ledger-go v0.12.2 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
