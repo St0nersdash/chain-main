@@ -1,6 +1,7 @@
 module github.com/crypto-org-chain/chain-main/v4
 
-go 1.19
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
@@ -37,7 +38,7 @@ require (
 	cloud.google.com/go/iam v0.8.0 // indirect
 	cloud.google.com/go/storage v1.27.0 // indirect
 	cosmossdk.io/errors v1.0.0-beta.7 // indirect
-	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
+	filippo.io/edwards25519 v1.1.1 // indirect
 	github.com/99designs/keyring v1.2.1 // indirect
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d // indirect
 	github.com/Workiva/go-datastructures v1.0.53 // indirect
